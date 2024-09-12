@@ -360,7 +360,8 @@ footer {
 
 #about p {
     color: #a5a5a5;
-    margin: 0
+    margin: 0;
+    text-align: justify;
 }
 
 #experience {
@@ -423,7 +424,8 @@ footer {
 .vtimeline-content h4 {
     font-size: 1.2em;
     font-weight: 300;
-    color: #7e8890;
+    color: #111111;
+    text-decoration: underline;
     margin: 0 0 15px 0
 }
 
@@ -538,7 +540,12 @@ footer {
 }
 
 .project-image {
-    float: left
+    float: left;
+
+    img {
+        aspect-ratio: 2312/1736;
+        width: 300px;
+    }
 }
 
 .project-info {
@@ -551,7 +558,7 @@ footer {
 
 .project-info h3 {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 500;
     color: #374054;
     margin: 0 0 15px 0
 }
