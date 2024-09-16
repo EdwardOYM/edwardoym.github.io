@@ -2,7 +2,7 @@
     CSS styles
 */
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Open Sans;
     font-size: 16px;
     background: #3b3b3b;
 }
@@ -16,7 +16,7 @@ body.active {
     background: #000000;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #dcd9d9
+    border: 1px solid #686161
 }
 
 .no-js #experience-timeline>div h3 {
@@ -251,7 +251,7 @@ footer {
 }
 
 .background-alt {
-    background: #979797
+    background: #686161
 }
 
 #lead {
@@ -289,8 +289,8 @@ footer {
 }
 
 #lead-content h2 {
-    color: #eec9a0;
-    font-weight: 500;
+    color: #fa9624;
+    font-weight: 700;
     font-size: 2.25em;
     margin-bottom: 15px
 }
@@ -351,7 +351,7 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid #686161
 }
 
 #about h2 {
@@ -367,7 +367,7 @@ footer {
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid #686161
 }
 
 #experience h2 {
@@ -467,12 +467,12 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054
+    color: #ffffff
 }
 
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    border-bottom: 1px solid #686161;
     text-align: center
 }
 
@@ -485,7 +485,7 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    border: 1px solid #686161;
     text-align: left
 }
 
@@ -493,16 +493,16 @@ footer {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #aaaaaa
+    color: #cfcfcf
 }
 
 .education-block span {
-    color: #9fa2a5;
+    color: #cfcfcf;
     float: right
 }
 
 .education-block h4 {
-    color: #9fa2a5;
+    color: #bdbdbd;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0
@@ -511,8 +511,9 @@ footer {
 .education-block p,
 .education-block ul {
     margin: 0;
-    color: #74808a;
-    font-size: 0.9em
+    color: #b8a58e;
+    font-size: 0.9em;
+    font-weight: 500
 }
 
 .education-block ul {
@@ -521,7 +522,7 @@ footer {
 
 #projects {
     padding: 50px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    border-bottom: 1px solid #686161;
     text-align: center
 }
 
@@ -691,7 +692,7 @@ footer {
 .optional-section {
     padding: 50px 15px;
     text-align: center;
-    border-top: 1px solid #dcd9d9
+    border-top: 1px solid #686161
 }
 
 .optional-section h2 {
@@ -702,7 +703,7 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    border: 1px solid #686161;
     background: #fff;
     text-align: left
 }
