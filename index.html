@@ -68,15 +68,19 @@
 
     <div id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row about-row">
+                <div class="about-title">
                     <h2 class="heading">About Me</h2>
                 </div>
-                <div class="col-md-8">
-                    <p>    
-                        Hello there, welcome to my portfolio. My name’s Ong Yu Mhing, or Edward for short.
-
-                        I’m a Full Stack Software Developer from Malaysia with 4 years of hands-on experience in sprint agile development. Flexible in taking on any projects. Identified, proposed and implemented Quality Of Life enhancements for better user experience. Enjoys learning and utilizing new technologies.
+                <div class="about-image-wrap">
+                    <img src="images/fifi-da-doggo.jpeg" alt="Edward's pet companion" class="about-image">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Full Stack Software Developer with approximately 4 years of professional experience building and maintaining web applications in agile environments.
+                        Skilled in both frontend and backend development, with strong experience upgrading legacy systems, improving user experience, and delivering production-ready features.
+                        Comfortable working across the stack with Angular, Vue, Laravel/PHP, Node.js, and databases such as MySQL and PostgreSQL.
+                        Enjoys learning new technologies and improving developer experience.
                     </p>
                 </div>
             </div>
@@ -87,68 +91,28 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="March 2022 – Current">
-                <h3> MY E.G. Services Berhad (MYEG)</h3>
+            <div data-date="March 2022 – Present">
+                <h3>MY E.G. Services Berhad (MYEG)</h3>
                 <h4>Software Developer</h4>
                 <ul>
-                    <li>Utilize Blockchain Transaction System</li>
-                    <ul>
-                        <li>
-                            Learned blockchain API transaction systems such as Zetrix and Stellar.
-                        </li>
-                        <li>
-                            Provided secure transactions using decentralized blockchain while monitoring transactions using ledger system
-                        </li>
-                    </ul>
-                    <li>Built Frontend Pages</li>
-                    <ul>
-                        <li>
-                            Created and stylized pages for user to interact with such as AI Chat, Referral and Administration pages.
-                        </li>
-                        <li>
-                            Developed pages using various frameworks such as Laravel, Vue3, and Angular.
-                        </li>
-                    </ul>
-                    <li>Managed Frontend Payment System</li>
-                    <ul>
-                        <li>
-                            Provided the payment, rebate, refund and tabulation of transactions.
-                        </li>
-                        <li>
-                            Handled tabulations of transaction data using both PostgreSQL and MYSQL databases.
-                        </li>
-                    </ul>
-                    <li>Handled Major System Update</li>
-                    <ul>
-                        <li>
-                            Upgraded angular framework systems from version 9 to version 16, Updating packages to suit the dependencies.
-                        </li>
-                        <li>
-                            Updated packages found to latest version that solves any vulnerabilities currently found.
-                        </li>
-                        <li>
-                            Tested and compared the older versions to the newer versions to maintain their designs and functionalities.
-                        </li>
-                    </ul>
-                    <li>Revamped Legacy Project</li>
-                    <ul>
-                        <li>
-                            Reworked older functionalities for better scalability, removed redundancies and improve code readability.
-                        </li>
-                        <li>
-                            Enhanced code readability using tools such as Swagger Documentation, allowing other developers to understand the use of certain APIs.
-                        </li>
-                    </ul>
+                    <li>Implemented frontend pages and admin panels such as AI Chat, Referral, and Admin using Angular, Vue3, and Laravel-powered backends.</li>
+                    <li>Led framework upgrades from Angular v9 to v16, including package dependency updates and compatibility testing for design consistency and functionality.</li>
+                    <li>Owned payment-related features including payments, rebates, refunds, and transaction tabulation using PostgreSQL and MySQL.</li>
+                    <li>Worked with blockchain transaction APIs such as Zetrix and Stellar to support secure ledger-based transactions and monitoring.</li>
+                    <li>Reworked legacy code for scalability by removing redundancies, improving readability, and adding Swagger documentation for easier API discoverability.</li>
+                    <li>Implemented localization and i18n improvements across en, zh, and my, and adjusted Strapi CMS API flows and fallback handling.</li>
+                    <li>Contributed to CI/CD workflows with GitLab CI, automated deployment tasks, and pipeline improvements for more reliable UAT deployments.</li>
+                    <li>Improved SEO with schema markup and sitemap generation, and enhanced accessibility and styling for banners and pages.</li>
+                    <li>Troubleshot and resolved production bugs related to API sequencing, form state, cookie handling, retry logic, and error dialog flows.</li>
                 </ul>
             </div>
 
             <div data-date="December 2021 – February 2022">
-                <h3> MY E.G. Services Berhad (MYEG)</h3>
+                <h3>MY E.G. Services Berhad (MYEG)</h3>
                 <h4>Intern</h4>
                 <ul>
-                    <li>Developed Authentication / Authorization System</li>
-                    <li>Learned and implemented Unit Testing System</li>
-                    <li>Created Automated Email System using Sendgrid Services</li>
+                    <li>Built authentication and authorization components.</li>
+                    <li>Implemented unit testing and automated email workflows using SendGrid.</li>
                 </ul>
             </div>
         </div>
@@ -158,37 +122,12 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>Sunway University</h3>
+            <h3>Sunway University / University of Lancaster</h3>
             <span class="education-date">Jan 2019 - Mar 2022</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h4>BSc Computer Science (Dual Degree)</h4>
             <ul>
-                <li>
-                    Dual Degree with University of Lancaster
-                </li>
-                <li>
-                    1st Class Honours
-                </li>
-                <li>
-                    3.76 CGPA
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Lancaster</h3>
-            <span class="education-date">Jan 2019 - Mar 2022</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Dual Degree with Sunway University
-                </li>
-                <li>
-                    1st Class Honours
-                </li>
-                <li>
-                    3.76 CGPA
-                </li>
+                <li>First Class Honours</li>
+                <li>CGPA 3.76</li>
             </ul>
         </div>
         <!-- End .education-block -->
@@ -196,25 +135,20 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Projects &amp; Contributions</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/fifi-da-doggo.jpeg" />
-                    </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Work In Progress</h3>
+                        <h3>Selected Contributions</h3>
                         <ul>
-                            <li>Will add projects without NDA here or personal projects in the future!</li>
+                            <li><strong>Frontend Design Revamp:</strong> Defined frontend design flow, improved Jira integration with Figma screenshots, and standardized routing and ticketing for modular work.</li>
+                            <li><strong>Roadtax &amp; Quotation Flow Fixes:</strong> Diagnosed and fixed issues related to form state, API sequencing, cookie handling, retry logic, and error dialogs.</li>
+                            <li><strong>Strapi &amp; Localization Rework:</strong> Created helpers to map language codes, added fallback handling, and restructured Strapi API calls for predictable responses.</li>
+                            <li><strong>GitLab CI Improvements:</strong> Refactored CI scripts, added node-specific build targets, and improved after_script handling for more reliable UAT deployments.</li>
                         </ul>
-                        <!-- TODO: Add the link when a project is to be shown -->
-                        <!-- <a href="#">View Project</a> -->
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
             </div>
         </div>
     </div>
@@ -224,37 +158,42 @@
         <h2 class="heading">Skills</h2>
         <ul>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>Python</li>
-            <li>Vue</li>
+            <li>PHP</li>
+            <li>Angular</li>
+            <li>Vue3</li>
+            <li>Laravel</li>
+            <li>Node.js</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>SCSS</li>
-            <li>Laravel</li>
-            <li>PHP</li>
-            <li>Docker</li>
-            <li>NodeJS</li>
-            <li>MYSQL</li>
+            <li>Figma</li>
+            <li>Webpack</li>
+            <li>Strapi CMS</li>
+            <li>Swagger / OpenAPI</li>
+            <li>Postman</li>
+            <li>MySQL</li>
             <li>PostgreSQL</li>
+            <li>Docker</li>
             <li>AWS</li>
             <li>Linux</li>
-            <li>Arduino</li>
-            <li>Swagger doc</li>
-            <li>Git</li>
-            <li>Github</li>
-            <li>Gitlab</li>
-            <li>Postman</li>
-            <li>Jira</li>
-            <li>Sentry</li>
             <li>Jasmine</li>
             <li>PHPUnit</li>
-            <li>Sendgrid</li>
-            <li>Figma</li>
-            <li>Wordpress</li>
+            <li>GitLab CI</li>
+            <li>Sentry</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitLab</li>
+            <li>Jira</li>
+            <li>SendGrid</li>
+            <li>WordPress</li>
+            <li>Arduino</li>
         </ul>
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
+    <!-- <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/f/xdknvkpj">
@@ -265,7 +204,7 @@
             </form>
         </div>
         <!-- End #contact-form -->
-    </div>
+    </div> -->
     <!-- End #contact -->
 
     <footer>
@@ -273,7 +212,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Updated @ <span id="current-year">2025</span> ONG YU MHING
+                        Updated @ <span id="current-year">2026</span> ONG YU MHING
                     </p>
                 </div>
                 <div class="col-sm-2 top">
